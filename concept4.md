@@ -2,7 +2,7 @@
 
 さて、次にGitHub上でREADME.mdを編集してみましょう。
 
-![READMEの編集](../images/github-pull-1.png)
+![READMEの編集](./images/github-pull-1.png)
 
 変更したらページ下部の"commit change"ボタンをクリックして変更を保存します。
 

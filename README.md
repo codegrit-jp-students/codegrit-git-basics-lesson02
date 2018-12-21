@@ -24,7 +24,7 @@ Gitのリモートリポジトリとして利用できるサービスはGitHub�
 
 ## GitHubへのユーザー登録
 
-![GitHubトップ](../images/github1.png)
+![GitHubトップ](./images/github1.png)
 
 まずはGitHubトップページより、ユーザー登録を行いましょう。
 
@@ -78,16 +78,16 @@ $ cat ~/.ssh/id_rsa.pub
 
 先ほどの項目でコピーした公開鍵をGitHub上で登録します。
 
-![GitHub SSH設定1](../images/github-ssh-1.png)
+![GitHub SSH設定1](./images/github-ssh-1.png)
 まずは、GitHubの画面右上のメニューから"Settings"に進み、その後左のメニューから"SSH and GPG keys"を選びます。
 
 
-![GitHub SSH設定2](../images/github-ssh-2.png)
+![GitHub SSH設定2](./images/github-ssh-2.png)
 次の画面では、右上に"New SSH key"と書かれたボタンがあるのでこちらをクリックしてください。あるいは直接以下のURLから登録ページに移動できます。
 
 [GitHub SSH設定ページ](https://github.com/settings/ssh/new)
 
-![GitHub SSH設定3](../images/github-ssh-3.png)
+![GitHub SSH設定3](./images/github-ssh-3.png)
 移動したら、分かりやすい名前をつけて、コピーした公開鍵を貼り付けて保存します。
 
 これで準備完了です。
@@ -98,11 +98,11 @@ $ cat ~/.ssh/id_rsa.pub
 
 作成するには、まずトップページの左上のRepositoriesというメニューから、"New"を選ぶ、あるいは右上の"+"ボタンのメニューから"New Repository"を選びます。
 
-![リポジトリ作成1](../images/github-create-repo-1.png)
+![リポジトリ作成1](./images/github-create-repo-1.png)
 
 すると、以下のようなページに移動します。
 
-![リポジトリ作成2](../images/github-create-repo-2.png)
+![リポジトリ作成2](./images/github-create-repo-2.png)
 
 こちらで、適当な名前をつけて、下にある"Create repository"というボタンをクリックすれば完了です。
 
@@ -110,7 +110,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 リポジトリを作成すると、次のようなページに移動します。
 
-![リポジトリ作成3](../images/github-create-repo-3.png)
+![リポジトリ作成3](./images/github-create-repo-3.png)
 
 まずは、ローカル上に自分のつけたリポジトリの名前でフォルダを作成して、リモートリポジトリを作成していきます。
 
@@ -153,13 +153,13 @@ To https://github.com/ユーザー名/test-project.git
 
 ここまで出来たら、GitHubのリポジトリのページをリロードしましょう。ローカルリポジトリの内容がアップロードされたことが確認出来るはずです。
 
-![リポジトリ作成4](../images/github-create-repo-4.png)
+![リポジトリ作成4](./images/github-create-repo-4.png)
 
 ## `git pull`でリモート上の変更をローカルに反映する。
 
 さて、次にGitHub上でREADME.mdを編集してみましょう。
 
-![READMEの編集](../images/github-pull-1.png)
+![READMEの編集](./images/github-pull-1.png)
 
 変更したらページ下部の"commit change"ボタンをクリックして変更を保存します。
 

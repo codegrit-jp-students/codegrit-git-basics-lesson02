@@ -1,6 +1,6 @@
 ## GitHubへのユーザー登録
 
-![GitHubトップ](../images/github1.png)
+![GitHubトップ](./images/github1.png)
 
 まずはGitHubトップページより、ユーザー登録を行いましょう。
 
@@ -54,16 +54,16 @@ $ cat ~/.ssh/id_rsa.pub
 
 先ほどの項目でコピーした公開鍵をGitHub上で登録します。
 
-![GitHub SSH設定1](../images/github-ssh-1.png)
+![GitHub SSH設定1](./images/github-ssh-1.png)
 まずは、GitHubの画面右上のメニューから"Settings"に進み、その後左のメニューから"SSH and GPG keys"を選びます。
 
 
-![GitHub SSH設定2](../images/github-ssh-2.png)
+![GitHub SSH設定2](./images/github-ssh-2.png)
 次の画面では、右上に"New SSH key"と書かれたボタンがあるのでこちらをクリックしてください。あるいは直接以下のURLから登録ページに移動できます。
 
 [GitHub SSH設定ページ](https://github.com/settings/ssh/new)
 
-![GitHub SSH設定3](../images/github-ssh-3.png)
+![GitHub SSH設定3](./images/github-ssh-3.png)
 移動したら、分かりやすい名前をつけて、コピーした公開鍵を貼り付けて保存します。
 
 これで準備完了です。

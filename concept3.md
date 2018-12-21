@@ -4,11 +4,11 @@
 
 作成するには、まずトップページの左上のRepositoriesというメニューから、"New"を選ぶ、あるいは右上の"+"ボタンのメニューから"New Repository"を選びます。
 
-![リポジトリ作成1](../images/github-create-repo-1.png)
+![リポジトリ作成1](./images/github-create-repo-1.png)
 
 すると、以下のようなページに移動します。
 
-![リポジトリ作成2](../images/github-create-repo-2.png)
+![リポジトリ作成2](./images/github-create-repo-2.png)
 
 こちらで、適当な名前をつけて、下にある"Create repository"というボタンをクリックすれば完了です。
 
@@ -16,7 +16,7 @@
 
 リポジトリを作成すると、次のようなページに移動します。
 
-![リポジトリ作成3](../images/github-create-repo-3.png)
+![リポジトリ作成3](./images/github-create-repo-3.png)
 
 まずは、ローカル上に自分のつけたリポジトリの名前でフォルダを作成して、リモートリポジトリを作成していきます。
 
@@ -59,4 +59,4 @@ To https://github.com/ユーザー名/test-project.git
 
 ここまで出来たら、GitHubのリポジトリのページをリロードしましょう。ローカルリポジトリの内容がアップロードされたことが確認出来るはずです。
 
-![リポジトリ作成4](../images/github-create-repo-4.png)
+![リポジトリ作成4](./images/github-create-repo-4.png)
